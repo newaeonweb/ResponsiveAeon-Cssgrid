@@ -1,7 +1,7 @@
 //$(document).ready(function () {
 
 	/* PLACEHOLDER FOR FORMS ------------- */
-	/* Remove this and placeholder.js if you don't need :) */
+	/* Remove comments to use placeholder.js :) */
 //
 	//$('input, textarea').placeholder();
 //});

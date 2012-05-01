@@ -81,61 +81,11 @@ svg:not(:root) {overflow: hidden} /* Correct IE9 overflow */
 .justify {text-align:justify;}
 
 
-/*======================================================Clean the code Below======================================================*/
-
-header {
-		max-width: 1280px;
-		width:100%;
-		background-color:rgb(226,226,226);
-		background-color: rgba(204,204,204, 0.3); 
-		float:left;
-		padding: 20px 0px;
-	}
-
-.logo img {padding-left: 20px;}
-
-samp {font-size: 1em; line-height: 1.5em; margin-bottom: 1.5em; font-family: Menlo, Consolas, 'DejaVu Sans Mono', Monaco, monospace}
-
-.html5, .css3, .jquery {margin-top: 20px }
-
-footer {
-	background-color:rgb(226,226,226);
-	background-color: rgba(204,204,204, 0.3); 
-	float: left;
-	width:100%;
-	padding: 10px 0px;
-}
-
-.btn {margin: 20px 0px;}
+/*======================================================Place your code here======================================================*/
 
 
-.download_button {
-	-moz-box-shadow:inset 0px 1px 0px 0px #a4e271;
-	-webkit-box-shadow:inset 0px 1px 0px 0px #a4e271;
-	box-shadow:inset 0px 1px 0px 0px #a4e271;
-	background-color:#89c403;
-	-moz-border-radius:6px;
-	-webkit-border-radius:6px;
-	border-radius:6px;
-	border:1px solid #74b807;
-	display:inline-block;
-	color:#ffffff;
-	font-family:arial;
-	font-size:21px;
-	font-weight:bold;
-	padding:20px 54px;
-	text-decoration:none;
-	text-shadow:1px 1px 0px #528009;
-}.download_button:hover {
-	background-color:#77a809;
-}.download_button:active {
-	position:relative;
-	top:1px;
-}
 
-.pic {margin: 0px 5px 5px 0px;}
-
-/*======================================================Clean the code Above======================================================*/
+/*======================================================Place yout code here======================================================*/
 
 /* CSS for jQuery Reveal Plugin
  * Maintained for Foundation. foundation.zurb.com
