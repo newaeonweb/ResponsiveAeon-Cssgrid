@@ -1,7 +1,7 @@
 //$(document).ready(function () {
 
 	/* PLACEHOLDER FOR FORMS ------------- */
-	/* Remove comments to use placeholder.js :) */
+	/* Remove this and placeholder.js if you don't need :) */
 //
 	//$('input, textarea').placeholder();
 //});
@@ -23,3 +23,13 @@ $(document).ready(function() {
                $('#myModal').reveal();
      });
 });
+
+// Responsive navigation
+$(document).ready(function () {
+  selectnav('nav', {
+		  label: '--- Table of content --- ',
+		  nested: true,
+		  indent: '-'
+	 });
+});
+
