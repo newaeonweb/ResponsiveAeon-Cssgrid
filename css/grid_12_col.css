@@ -53,6 +53,20 @@ span.ampersand{font-family:Adobe Caslon Pro,Baskerville,"Goudy Old Style","Palat
 	.highlight   { background: #ff0; }
 
 
+
+/* Responsive navigation */
+
+.selectnav { display: none; width:100%; }
+
+/* small screen */
+@media screen and (max-width: 600px) {
+  .js #nav { display: none; }
+  .js .selectnav { display: block; }
+}
+
+/* Responsive navigation */
+
+
 /* GRID */
 /* ----------------------------------------- */
 .container {
