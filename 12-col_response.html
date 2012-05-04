@@ -1,11 +1,11 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html>
 <head>
-	<title>ResponsiveAeon Framework - 12Columns</title>
+	<title>Responsive Aeon Framework - 12Columns - Grid</title>
 	<meta charset="utf-8">
-	<meta name="description" content="" />
-	<meta name="author" content="">
-	<meta name="keywords" content="" />
+	<meta name="description" content="Responsive css framework with a little toucj of javascript" />
+	<meta name="author" content="Fernando Monteiro newaeonweb.com.br">
+	<meta name="keywords" content="css framework, html5, grid system, responsive design, mobile, mediaqueries" />
 <!-- Optimized mobile viewport -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="shortcut icon" href="images/favicon.ico">
@@ -19,6 +19,7 @@
 <!-- HTML5 IE Enabling Script -->
 	<!--[if lt IE 9]><script src="js/html5.js"></script><![endif]-->
 
+
 <!--CSS for demo purpose, clean this on production mode-->	
 <style type="text/css">
     .col1, .col2, .col3, .col4, .col5, .col6, .col7, .col8, .col9, .col10, .col11, .col12 {
@@ -26,6 +27,18 @@
 	height:50px;
 	margin-bottom: 20px;
 	}
+
+	nav {
+	font-family:Futura, "Century Gothic", AppleGothic, sans-serif;
+	font-size: 1.3em;
+	padding: 1% 0%;
+    }
+
+    nav ul li {display: inline; margin-right: 20px;}
+
+    nav a {color:#fff;}
+
+    nav a:hover {color:#000000;}
 
 </style>
 
@@ -88,16 +101,23 @@
     });
 </script>
 <!--Heads up grid only for demo purpose, clean this on production mode-->
-
-
 </head>
 
 <body>
-
-<div class="container">
-	
+<div class="container"><!--Beginning of content-->
 	<div class="content">
-		
+		<div class="col1"> col 1 </div>
+		<div class="col11 last"> col 11 </div>
+		<div class="col12">
+			<nav>
+				<ul id="nav">
+					<li><a href="#">This is</a></li>
+					<li><a href="#">only a simple</a></li>
+					<li><a href="#">exemple of</a></li>
+					<li><a href="#">reponsive menu</a></li>
+				</ul>
+			</nav>
+		</div>
 		<div class="col1"> col 1 </div>
 		<div class="col1"> col 2 </div>
 		<div class="col1"> col 3 </div>
@@ -110,7 +130,6 @@
 		<div class="col1"> col 10 </div>
 		<div class="col1"> col 11 </div>
 		<div class="col1 last"> col 12 </div>
-
 		<div class="col4">col 4 </div>
 		<div class="col4">col 4</div>
 		<div class="col4 last">col 4</div>
@@ -120,9 +139,7 @@
 		<div class="col3 last">col 3</div>
 		<div class="col6">col 6</div>
 		<div class="col6 last">col 6</div>
-
 		<div class="col12"> col 12 </div>
-
 		<div class="col2"> col 2 </div>
 		<div class="col3"> col 3 </div>
 		<div class="col4"> col 4 </div>
@@ -142,17 +159,25 @@
 		<div class="col1 last"> col 1 </div>
 		<div class="col11"> col 11 </div>
 		<div class="col1 last"> col 1 </div>
-	
-
-
 	</div><!-- /content -->
-
+</div><!-- /container -->
 	
-
-</div>
-
-	
-	
-
+<!-- JavaScript at the bottom for fast page loading with just one js file -->
+	<script src="js/head.js"></script>
+        <script>
+           head.js("js/jquery-1.6.2.min.js", "js/selectnav.min.js", "js/custom.js" );
+        </script>
+        <script>
+        //IE outofdate friendly warning
+        	var $buoop = {vs:{i:8,f:3.6,o:10.6,s:3.2,n:9}} 
+			$buoop.ol = window.onload; 
+			window.onload=function(){ 
+			 try {if ($buoop.ol) $buoop.ol();}catch (e) {} 
+			 var e = document.createElement("script"); 
+			 e.setAttribute("type", "text/javascript"); 
+			 e.setAttribute("src", "http://browser-update.org/update.js"); 
+			 document.body.appendChild(e); 
+			} 
+        </script>
 </body>
 </html>
