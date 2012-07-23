@@ -20,10 +20,15 @@ All javascript loading in parallel with: head.js Your page will be faster even w
 --Folder & File Structure--
 
 css - folder (12-col_response.css)
+
 js - folder (respond.min.js + selectnav.js + head.js + custom.js)
+
 images - folder (favicon.ico and iphone icons)
+
 12-col_response - file (html5 template)
+
 Templates - folder (Psd, Ai, Png + Sublime Text Snippets).
+
 
 More infos and an extra package with more features check it out: http://www.newaeonweb.com.br/responsiveaeon/
 
