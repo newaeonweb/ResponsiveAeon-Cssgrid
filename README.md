@@ -2,6 +2,7 @@ ResponsiveAeon, elegant & minimalistic css3 grid system framework!
 
 This's the new version from HTML5 NewAeon Framework. Now with a responsive grid all based in percentage with mediaqueries, html5 starting point and javascript.
 
+===================================================================
 FEATURES: 
 
 --CSS grid system--
@@ -17,6 +18,8 @@ All the New HTML5 elements in usage like: article, aside, details, figcaption, f
 
 All javascript loading in parallel with: head.js Your page will be faster even with a single combined file. Also include some jquery scripts for presentation.
 
+===================================================================
+
 --Folder & File Structure--
 
 css - folder (12-col_response.css)
@@ -29,6 +32,7 @@ images - folder (favicon.ico and iphone icons)
 
 Templates - folder (Psd, Ai, Png + Sublime Text Snippets).
 
+====================================================================
 
 More infos and an extra package with more features check it out: http://www.newaeonweb.com.br/responsiveaeon/
 
