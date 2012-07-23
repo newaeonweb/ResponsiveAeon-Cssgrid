@@ -1,11 +1,10 @@
 /*
 	Responsive Aeon Grid v2.0
 	Designed & Built by Fernando Monteiro, http://www.newaeonweb.com.br	
-	Licensed under Unlicense, http://unlicense.org/
+	Licensed under GPL license, http://www.gnu.org/licenses/gpl-3.0-standalone.html
 	
 	Base stylesheet with CSS Reset, grid and progressive responsiveness
 */
-
 
 /* #Reset & Basics (Inspired by E. Meyers)
 ================================================== */
@@ -32,24 +31,8 @@
 		border-collapse: collapse;
 		border-spacing: 0; }
 
-/* #Typography
-================================================== */
-body, button, input, select, textarea {font: 100%/1.5 Georgia,Palatino,"Palatino Linotype",Times,"Times New Roman", sans-serif; *font-size: 1em; color:#333;} /* IE7 and older can't resize px based text */
-p, blockquote, q, pre, address, hr, code, samp, dl, ol, ul, form, table, fieldset, menu, img {margin: 0 0 1.5em; padding: 0}
-
-h1, h2, h3, h4, h5, h6 {font-family:Futura, "Century Gothic", AppleGothic, sans-serif;color:#222;text-shadow:1px 1px 1px rgba(0,0,0,.10)}
-
-span.ampersand{font-family:Adobe Caslon Pro,Baskerville,"Goudy Old Style","Palatino","Palatino Linotype","Book Antiqua",Georgia,"Times New Roman",Times,serif;font-style:italic;font-size:110%;line-height:0;position:relative;vertical-align:baseline} /* Best available ampersand */
-
-
-/* #help
-================================================== */
-    .left        { float: left; }
-	.right       { float: right; }
-	.hide        { display: none; }
-	
-/* Responsive navigation */
-
+/* Responsive navigation with selectnav.js plugin
+============================================================================================== */
 .selectnav { display: none; width:100%; }
 
 /* small screen */
@@ -58,16 +41,14 @@ span.ampersand{font-family:Adobe Caslon Pro,Baskerville,"Goudy Old Style","Palat
   .js .selectnav { display: block; }
 }
 
-/* Responsive navigation */
-
-
-/* GRID */
-/* ----------------------------------------- */
+/* ResponsiveAeon Grid System
+============================================================================================== */
 .container {
     max-width:1104px;
 	margin:0 auto;
 	width:100%;
 }
+
 .content{
 	max-width:1084px;
 	padding: 0 10px;
@@ -100,21 +81,20 @@ span.ampersand{font-family:Adobe Caslon Pro,Baskerville,"Goudy Old Style","Palat
  .col11{width:91.512%;} 
  .col12{width:100%; margin-right:0px;} 
 
-.first {
-	margin-left: 0%;
-}
-.last {
-margin-right: 0%;
-}
-img, object, embed {
-max-width: 100%;
-}
-img {
-	height: auto;
-}
+.first {margin-left: 0%;}
+.last {margin-right: 0%;}
+
+/* Media - Fluid Images - Video 
+============================================================================================== */
+figure {margin: 0}
+img, object, embed, video {max-width: 100%;	_width: 100%} /* Fluid images */
+img {border: 0;	-ms-interpolation-mode: bicubic} /* Improve IE's resizing of images */
+svg:not(:root) {overflow: hidden} /* Correct IE9 overflow */
+img {height: auto;}
 
 
-/* Mobile  */
+/* General small screen Mobile 
+============================================================================================== */
 
 @media handheld, only screen and (max-width: 767px) {
 
@@ -144,3 +124,21 @@ img {
 }
 
 
+/* Custom sizes
+============================================================================================== */
+
+@media screen and (max-width: 480px) {
+ /* Add your styles for devices with a maximum width of 480 */
+}
+
+@media screen and (max-width: 768px) {
+ /* Add your styles for devices with a maximum width of 768 */
+}
+
+@media screen and (max-width: 320px) {
+ /* Add your styles for devices with a maximum width of 320 */
+}
+
+@media screen and (max-width: 1024px) {
+ /* Add your styles for devices with a maximum width of 1024 */
+}
