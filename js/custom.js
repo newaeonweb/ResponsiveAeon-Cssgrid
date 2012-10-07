@@ -2,7 +2,7 @@
 	Designed & Built by Fernando Monteiro, http://www.newaeonweb.com.br	
 	Licensed under GPL license, http://www.gnu.org/licenses/gpl-3.0-standalone.html
 	
-	Base stylesheet with CSS Reset, grid and progressive responsiveness*/
+*/
 
 
 
@@ -15,4 +15,4 @@ $(document).ready(function () {
 		  indent: '-'
 	 });
 });
-
+//Add your scripts here
