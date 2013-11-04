@@ -9,7 +9,7 @@ _This's the new version from HTML5 NewAeon Framework(2010). Now with a responsiv
 ### Features: 
 
 * Basic responsive grid system based on 12 columns layout.
-Minimum width 1104px.Very easy to understand and use. Allready with **@mediaqueries**.
+Minimum width 1140px. Very easy to understand and use. Allready with **@mediaqueries**.
 
 * Working with any **HTML5** elements in usage like: article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, dialog, audio, canvas,video are supported with the include of html.js.
 
