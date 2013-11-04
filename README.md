@@ -1,4 +1,4 @@
-## ResponsiveAeon, elegant & minimalistic css3 grid system framework!
+## ResponsiveAeon, elegant & minimalistic CSS grid system!
 
 > Simple, fast and intuitive! this matter!
 
