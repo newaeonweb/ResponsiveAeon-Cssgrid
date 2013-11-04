@@ -1,10 +1,7 @@
 /*	Responsive Aeon Grid v2.0
 	Designed & Built by Fernando Monteiro, http://www.newaeonweb.com.br	
-	Licensed under GPL license, http://www.gnu.org/licenses/gpl-3.0-standalone.html
-	
+	Licensed under GPL license, http://www.gnu.org/licenses/gpl-3.0-standalone.html	
 */
-
-
 
 //Basic script for Responsive navigation
 
