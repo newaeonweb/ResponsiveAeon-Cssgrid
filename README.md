@@ -1,23 +1,27 @@
-## ResponsiveAeon, elegant & minimalistic CSS grid system!
+# ResponsiveAeon, elegant & minimalistic CSS grid system!
 
-> Simple, fast and intuitive! this matter!
+#### Simple, fast and intuitive! this matter!
 
-_This's the new version from HTML5 NewAeon Framework(2010). Now with a responsive grid all based in percentage with mediaqueries, HTML5 starting point and JavaScript._
+> _**SASS** and **LESS** are awesome tools, **Grunt.js** and **Node.js** kick ass, but what about the beginners?_
 
 ---
 
+#### A simple and minimalist alternative to start with Responsive Design and fluid Grids for WebDesigners.
+
+
 ### Features: 
 
-* Basic responsive grid system based on 12 columns layout.
-Minimum width 1140px. Very easy to understand and use. Allready with **@mediaqueries**.
+* Extreme simple responsive grid system based on 12 columns layout.
 
-* Working with any **HTML5** elements in usage like: article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, dialog, audio, canvas,video are supported with the include of html.js.
+* Only **one** CSS file.
 
-* Using: head.js your page will be faster even with a single combined file. Also include some **jQuery** scripts for presentation.
+* Ease names to remember, **col** + 1 = col1. So just: col1, col2, col3 and goes on.
 
-* Head.js, jQuery and Respond are served on: cdnjs.cloudflare.com CDN.
+* Friendly warning to OLD browsers.
 
-* Include AI and PNG templates.
+* Include AI and PNG templates for Designers.
+
+* Include HTML5 index example file.
 
 ---
 
@@ -25,9 +29,9 @@ Minimum width 1140px. Very easy to understand and use. Allready with **@mediaque
 
 CSS - folder (aeon-grid.css, aeon-grid.min.css).
 
-JS - folder (jquery-1.9.1.min.js + selectnav.min.js + custom.js).
+JS - folder (Place your Scripts Here).
 
-IMAGES - folder (favicon.ico and iphone icons).
+Images - folder (favicon.ico and iphone icons).
 
 Templates - folder (Ai, Png files).
 
@@ -35,15 +39,15 @@ Templates - folder (Ai, Png files).
 
 ### Quick start
 
-#### 1. Include the **CSS** stylesheet on your **HTML** file
+#### 1. Include the **CSS** stylesheet on your own **HTML** file or use **our** index file.
 
 	<link rel="stylesheet" type="text/css" media="all" href="css/aeon-grid.css" />
 
-#### 2. Compose the HTML like the example
+#### 2. Compose the HTML like the example.
 
 	<div class="container">
 	    <div class="content">
-	    	<!--Do all your markup here-->
+	    	<!--Do all your markup here between content class-->
 	        <div class="col6"></div>
 	        <div class="col6"></div>
 	        <div class="col4"></div>
@@ -52,7 +56,7 @@ Templates - folder (Ai, Png files).
 	    </div>
 	</div>
 
-#### 3. Done! there's no more to learn. Simple, Fast and Intuitive
+#### 3. Done! there's no more to learn. Simple, Fast and Intuitive.
 
 ---
 

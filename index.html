@@ -51,37 +51,18 @@
 
 		</div><!-- /content -->
 	</div><!-- /container -->
-	
-	<!-- JavaScript at the bottom for fast page loading with just one js file 
-	External link to Head.js and respond.js -->
-	<script src="http://cdnjs.cloudflare.com/ajax/libs/headjs/0.99/head.min.js"></script>
-		<script>
-				head.js("http://cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js", 
-					"http://cdnjs.cloudflare.com/ajax/libs/respond.js/1.3.0/respond.min.js", 
-					"js/selectnav.min.js", 
-					"js/custom.js" 
-				);
-		</script>
 
-		<!-- Google Analytics: change UA-XXXXX-X to be your site's ID. 
-		<script>
-				var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
-				(function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
-				g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
-				s.parentNode.insertBefore(g,s)}(document,'script'));
-		</script>
-		-->   
-		<script>
-				//IE outdate friendly warning if you don't want remove it
-			var $buoop = {vs:{i:8,f:3.6,o:10.6,s:3.2,n:9}} 
+	<script>
+	//IE outdate friendly warning if you don't want remove it
+	var $buoop = {vs:{i:8,f:3.6,o:10.6,s:3.2,n:9}} 
 		$buoop.ol = window.onload; 
-		window.onload=function(){ 
-			 try {if ($buoop.ol) $buoop.ol();}catch (e) {} 
-			 var e = document.createElement("script"); 
-			 e.setAttribute("type", "text/javascript"); 
-			 e.setAttribute("src", "http://browser-update.org/update.js"); 
-			 document.body.appendChild(e); 
-		} 
-		</script>
+			window.onload=function(){ 
+				try {if ($buoop.ol) $buoop.ol();}catch (e) {} 
+				var e = document.createElement("script"); 
+				e.setAttribute("type", "text/javascript"); 
+				e.setAttribute("src", "http://browser-update.org/update.js"); 
+				document.body.appendChild(e); 
+			} 
+	</script>
 </body>
 </html>
