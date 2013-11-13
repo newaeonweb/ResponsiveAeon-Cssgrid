@@ -1,13 +1,14 @@
 /*
-    Responsive Aeon Grid System v1.0.0
-    Designed & Built by Fernando Monteiro, http://www.newaeonweb.com.br 
-    Licensed under MIT license, http://opensource.org/licenses/mit-license.php
-    
-    Base stylesheet with CSS Reset, grid and progressive responsiveness
-*/
+			Responsive Aeon Grid System v1.0.0
+			Designed & Built by Fernando Monteiro, http://www.newaeonweb.com.br 
+			Licensed under MIT license, http://opensource.org/licenses/mit-license.php
+			
+			Base stylesheet with CSS Reset, grid and progressive responsiveness
+			*/
 
 /* Simple reset just for Body element 
-============================================================================================== */
+	============================================================================================== */
+
 body {
   margin: 0;
   padding: 0;
@@ -16,8 +17,9 @@ body {
   font: inherit;
   vertical-align: baseline;
 }
+
 /* Container Bases 
-============================================================================================== */
+	============================================================================================== */
 
 .container {
   margin: 0 auto;
@@ -27,8 +29,9 @@ body {
   max-width: 100%;
   margin: 0 10px;
 }
+
 /* Grid Variable 
-============================================================================================== */
+	============================================================================================== */
 [class*="col"] {
   display: inline;
   float: left;
@@ -39,8 +42,9 @@ body {
 [class*="col"]:last-child {
   margin-right: 0;
 }
+
 /* General Grid 
-============================================================================================== */
+	============================================================================================== */
 
 .col1 {
   width: 6.333%;
@@ -79,8 +83,9 @@ body {
   margin-left: 0;
   width: 100%;
 }
+
 /* General small screen Mobile 
-============================================================================================== */
+	============================================================================================== */
 
 @media handheld, only screen and (max-width: 768px) {
   body {
@@ -111,8 +116,9 @@ body {
     width: 98%;
   }
 }
+
 /* Clear Helpers 
-============================================================================================== */
+	============================================================================================== */
 
 .clear {
   clear: both;
@@ -122,27 +128,21 @@ body {
   width: 0;
   height: 0;
 }
+.clearfix {
+  *zoom: 1;
+}
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
 .clearfix:after {
   clear: both;
-  content: ' ';
-  display: block;
-  font-size: 0;
-  line-height: 0;
-  visibility: hidden;
-  width: 0;
-  height: 0;
 }
-.clearfix {
-  display: inline-block;
-}
-* html .clearfix {
-  height: 1%;
-}
-.clearfix {
-  display: block;
-}
+
 /* Media - Fluid Images - Video 
-============================================================================================== */
+	============================================================================================== */
 
 figure {
   margin: 0;
@@ -171,7 +171,7 @@ img {
   box-sizing: border-box;
   max-width: 100%;
   _width: 100%
-    height: auto;
+		height: auto;
   vertical-align: middle;
 }
 img[src*="maps.gstatic.com"],
