@@ -67,4 +67,4 @@ A simple demo can be checked here: http://www.newaeonweb.com.br/responsiveaeon/d
 Enjoy and contribute!
 
 
-
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/newaeonweb/responsiveaeon-cssgrid/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
